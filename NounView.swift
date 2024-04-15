@@ -8,8 +8,10 @@
 import SwiftUI
 struct NounView: View {
     var body: some View  {
-        NavigationLink {
-            VerbView()
+        NavigationView{
+            NavigationLink {
+                VerbView()
+            }
         }
         
         
